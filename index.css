@@ -297,10 +297,10 @@ body {
         width: 100% !important;
     }
 
-/*     body {
+    body {
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
-    } */
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -398,56 +398,3 @@ body {
     }
 }
 
-@media screen and (max-width: 460px) {
-    #cv .left .left-main p {
-        font-size: 9px;
-    }
-
-    #cv .left .left-main a {
-        font-size: 9px;
-    }
-
-    #cv .right .name1 {
-        font-size: 17px;
-    }
-
-    #cv .right #tive h2 {
-        font-size: 17px;
-    }
-
-    #cv .right .objec {
-        font-size: 9px;
-    }
-
-    #cv .right #ence h2 {
-        font-size: 17px;
-    }
-
-    #cv .right #box li {
-        font-size: 9px;
-    }
-
-    #cv .right #tion h2 {
-        font-size: 17px;
-    }
-
-    #cv .right #boxqa li {
-        font-size: 9px;
-    }
-
-    #cv .left {
-        width: 36vw;
-    }
-
-    #cv .right {
-        width: 60vw;
-    }
-
-    #cv {
-        display: flex;
-        justify-content: space-between;
-    }
-    #cv .right ul li{
-        list-style: none;
-    }
-}
