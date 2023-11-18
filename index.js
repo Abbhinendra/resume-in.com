@@ -31,13 +31,13 @@ function createCv(){
 
     document.querySelector('.pata').innerHTML=document.getElementById('pata').value;
 
-    document.querySelector('.face').innerHTML=document.getElementById('face').value;
+    // document.querySelector('.face').innerHTML=document.getElementById('face').value;
     document.querySelector('.face').href=document.getElementById('face').value;
 
-    document.querySelector('.ins').innerHTML=document.getElementById('ins').value;
+    // document.querySelector('.ins').innerHTML=document.getElementById('ins').value;
     document.querySelector('.ins').href=document.getElementById('ins').value;
 
-    document.querySelector('.lin').innerHTML=document.getElementById('lin').value;
+    // document.querySelector('.lin').innerHTML=document.getElementById('lin').value;
     document.querySelector('.lin').href=document.getElementById('lin').value;
     
     document.querySelector('.objec').innerHTML=document.getElementById('objec').value;
