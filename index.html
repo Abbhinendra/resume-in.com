@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Resume Builder</title>
+</head>
+
+<body class="color-body">
+    <main id="formmain">
+        <div class="container" id="h2">
+            <h2>Resume Generator</h2>
+            <h4>By CodeWith Abhi</h4>
+        </div>
+        <div class="container-fluid my-4" id="main">
+            <div class="left col-md-6">
+                <h2>Personal information</h2>
+                <br>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Your Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Your Phone</label>
+                    <input type="text" id="phone" class="form-control" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Your address</label>
+                    <textarea class="form-control" id="pata" rows="3" placeholder="Enter Here"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Select Your Picture</label>
+                    <input type="file" id="file" class="form-control" required>
+                </div>
+                <h4>Important Links</h4>
+                <br>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Facebook</label>
+                    <input type="text" class="form-control" id="face" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Instagram</label>
+                    <input type="text" class="form-control" id="ins" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Linkedin</label>
+                    <input type="text" class="form-control" id="lin" placeholder="Enter Here">
+                </div>
+
+            </div>
+            <div class="right col-md-6">
+                <h2>Professsional information</h2>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Objective</label>
+                    <textarea class="form-control" id="objec" rows="3" placeholder="Enter Here"></textarea>
+                </div>
+                <div class="form-group" id="wa">
+                    <label for="exampleFormControlTextarea1">Work Experience</label>
+                    <textarea class="form-control wef work sabhi" rows="3" placeholder="Enter Here"></textarea>
+                </div>
+                <div class="container add">
+                    <button onclick="addNewF()">Add</button>
+                </div>
+                <br>
+                <div class="form-group" id="quali">
+                    <label for="exampleFormControlTextarea1">Acadmic Qualification</label>
+                    <textarea class="form-control qa" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Enter Here"></textarea>
+                </div>
+                <div class="container add">
+                    <button onclick="second()">Add</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="genrate">
+            <button id="make">Generate CV</button>
+        </div>
+        <br>
+    </main>
+    <div class="container-fluid" id="cv">
+
+        <div class="left">
+            <div class="left-main">
+                <img src="" alt="" id="photoImg">
+                <br>
+                <p class="name"></p>
+
+                <p class="phone"></p>
+
+                <p class="pata"></p>
+                <hr id="hrd">
+                <a href="" class="face"></a>
+                <br>
+                <a href="" class="ins"></a>
+                <br>
+                <a href="" class="lin"></a>
+            </div>
+        </div>
+        <div class="right">
+            <h2 class="name1"></h2>
+            <br>
+            <div id="tive">
+                <h2>Objective</h2>
+            </div>
+            <div class="objec">
+            </div>
+            <br>
+            <div id="ence">
+                <h2>Work Experience</h2>
+            </div>
+            <div id="box-ence">
+                <ul id="box">
+
+                </ul>
+            </div>
+            <div id="tion">
+                <h2>Acadmic Qualification</h2>
+            </div>
+            <div id="box-tion">
+                <ul id="boxqa">
+
+                </ul>
+            </div>
+            <br>
+            <br>
+            <div class="container pir" id="close">
+                <button id="print-cv">Print Cv</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</htmt>

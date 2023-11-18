@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.color-body {
+    background-image: linear-gradient(rgb(6, 6, 62), rgb(6, 6, 92));
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(6, 6, 97);
+    border-radius: 26px;
+}
+
+#h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.genrate {
+    display: flex;
+    justify-content: center;
+}
+
+#cv .left {
+    width: 28vw;
+}
+
+#cv .right {
+    margin-top: 20px;
+    width: 52vw;
+}
+
+#cv {
+    display: none;
+    justify-content: space-evenly;
+}
+
+#cv .left img {
+    width: 50%;
+    border-radius: 50%;
+    height: 22%;
+}
+
+.add button {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+}
+
+#make {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+#print-cv{
+    background-color: aqua;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+#cv .left {
+     background-color: aqua; 
+
+}
+#cv .left .left-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-height: max-content;
+    margin-top: 16px;
+}
+
+#cv .left p {
+    text-align: center;
+}
+
+.name1 {
+    background-color: aqua;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px;
+    color: white;
+    text-align: center;
+}
+
+#tive {
+
+    background-color: aqua;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px;
+    color: white;
+
+}
+
+.objec {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px;
+}
+
+#ence {
+    background-color: aqua;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px;
+    color: white;
+
+}
+
+ #box-ence{
+    margin-left: 3%;
+} 
+#box-ence ul li{ 
+    padding: 6px;
+}
+#tion{
+    background-color: aqua;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 6px;
+    color: white;
+}
+#box-tion{
+   
+    margin-left: 3%;
+}
+#box-tion ul li{
+ 
+    padding: 6px;
+}
+
+#hrd{
+    background-color:rgb(8, 134, 134);
+    width: 100%; 
+}
+@media print {
+    
+#print-cv{
+    background-color: aqua !important;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px;
+ 
+}
+
+#cv .left {
+    background-color: aqua !important;
+
+}
+#cv .left .left-main{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    max-height: max-content !important;
+    margin-top: 16px !important;
+}
+
+#cv .left p {
+    text-align: center !important;
+}
+
+.name1 {
+    background-color: aqua !important;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+#tive {
+
+    background-color: aqua !important;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white !important;
+
+}
+
+.objec {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+}
+
+#ence {
+    background-color: aqua !important;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white !important;
+
+}
+
+ #box-ence{
+    margin-left: 3% !important;
+} 
+#box-ence ul li{ 
+    padding: 6px !important;
+}
+#tion{
+    background-color: aqua !important;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white !important;
+}
+#box-tion{
+   
+    margin-left: 3% !important;
+}
+#box-tion ul li{
+ 
+    padding: 6px !important;
+}
+#close{
+    display: none !important;
+}
+#hrd{
+    background-color:rgb(8, 134, 134) !important;
+    width: 100% !important;   
+}
+body{
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+    @media screen and (max-width: 300px) {
+      #h2 h2{
+        font-size: 20px;
+      }
+      #h2 h4{
+        font-size: 18px;
+      }
+        }
+
+        @media screen and (max-width: 736px) {
+          #cv .left .left-main p{
+            font-size: 14px;
+          }
+          #cv .left .left-main a{
+            font-size: 14px;
+          }
+          #cv .right .name1{
+            font-size: 17px;
+          }
+          #cv .right #tive h2{
+            font-size: 17px;
+          }
+          #cv .right .objec{
+            font-size: 14px;
+          }
+          #cv .right #ence h2{
+            font-size: 17px;
+          }
+          #cv .right #box li{
+            font-size: 14px;
+          }
+          #cv .right #tion h2{
+            font-size: 17px;
+          }
+          #cv .right #boxqa li{
+            font-size: 14px;
+          }
+              }
+
+              @media screen and (max-width: 600px) {
+                #cv .left .left-main p{
+                  font-size: 9px;
+                }
+                #cv .left .left-main a{
+                  font-size: 9px;
+                }
+                #cv .right .name1{
+                  font-size: 17px;
+                }
+                #cv .right #tive h2{
+                  font-size: 17px;
+                }
+                #cv .right .objec{
+                  font-size: 9px;
+                }
+                #cv .right #ence h2{
+                  font-size: 17px;
+                }
+                #cv .right #box li{
+                  font-size: 9px;
+                }
+                #cv .right #tion h2{
+                  font-size: 17px;
+                }
+                #cv .right #boxqa li{
+                  font-size: 9px;
+                }
+                    }
