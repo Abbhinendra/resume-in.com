@@ -54,6 +54,11 @@ body {
     width: 52vw;
 }
 
+#cv .left a i{
+    font-size: 36px;
+    font-weight: 800;
+    cursor: pointer;
+}
 #cv {
     display: none;
     justify-content: space-evenly;
@@ -266,6 +271,11 @@ body {
 }
 #close{
     display: none !important;
+}
+#cv .left a i{
+    font-size: 36px !important;
+    font-weight: 800 !important;
+    cursor: pointer !important;
 }
 #hrd{
     background-color:rgb(8, 134, 134) !important;
