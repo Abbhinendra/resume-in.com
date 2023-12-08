@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="1.jpeg" />
     <title>Resume Builder</title>
 </head>
 
@@ -21,19 +22,20 @@
                 <h2>Personal information</h2>
                 <br>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Your Name</label>
-                    <input type="text" id="name" class="form-control" placeholder="Enter Here">
+                    <label for="exampleInputPassword1">Your Name <span class="req">require</span></label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter Here" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Your Phone</label>
-                    <input type="text" id="phone" class="form-control" placeholder="Enter Here">
+                    <label for="exampleInputPassword1">Your Phone <span class="req">require</span></label>
+                    <input type="text" id="phone" class="form-control" placeholder="Enter Here" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Your address</label>
                     <textarea class="form-control" id="pata" rows="3" placeholder="Enter Here"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Select Your Picture</label>
+                    <label for="exampleFormControlTextarea1">Select Your Picture <span
+                            class="req">require</span></label>
                     <input type="file" id="file" class="form-control" required>
                 </div>
                 <h4>Important Links</h4>
@@ -50,7 +52,22 @@
                     <label for="exampleInputPassword1">Linkedin</label>
                     <input type="text" class="form-control" id="lin" placeholder="Enter Here">
                 </div>
-
+                <div class="form-group">
+                    <label for="exampleInputPassword1">X-twitter</label>
+                    <input type="text" class="form-control" id="twitter" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Youtube</label>
+                    <input type="text" class="form-control" id="Youtube" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">GitHub</label>
+                    <input type="text" class="form-control" id="GitHub" placeholder="Enter Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Portfolio</label>
+                    <input type="text" class="form-control" id="Portfolio" placeholder="Enter Here">
+                </div>
             </div>
             <div class="right col-md-6">
                 <h2>Professsional information</h2>
@@ -59,25 +76,113 @@
                     <label for="exampleFormControlTextarea1">Objective</label>
                     <textarea class="form-control" id="objec" rows="3" placeholder="Enter Here"></textarea>
                 </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">About Me</label>
+                    <textarea class="form-control" id="About" rows="3" placeholder="Enter Here"></textarea>
+                </div>
                 <div class="form-group" id="wa">
-                    <label for="exampleFormControlTextarea1">Work Experience</label>
-                    <textarea class="form-control wef work sabhi" rows="3" placeholder="Enter Here"></textarea>
+                    <label for="exampleFormControlTextarea1">Work Experience <span class="req">require</span></label>
+                    <textarea class="form-control wef work sabhi" rows="3" placeholder="Enter Here" required></textarea>
                 </div>
                 <div class="container add">
                     <button onclick="addNewF()">Add</button>
                 </div>
                 <br>
                 <div class="form-group" id="quali">
-                    <label for="exampleFormControlTextarea1">Acadmic Qualification</label>
-                    <textarea class="form-control qa" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Enter Here"></textarea>
+                    <label for="exampleFormControlTextarea1">Acadmic Qualification <span
+                            class="req">require</span></label>
+                    <textarea class="form-control qa" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Here"
+                        required></textarea>
                 </div>
                 <div class="container add">
                     <button onclick="second()">Add</button>
                 </div>
                 <br>
+                <div>
+                    <h2 class="text-center">Optional fields</h2>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Skills</label>
+                    <textarea class="form-control ab" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Enter Here"></textarea>
+                </div>
+                <div>
+                    <h2 class="text-center">Projects</h2>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <div>
+                        <h4 class="text-center">Project-1</h4>
+                    </div>
+                    <label for="exampleFormControlTextarea1">Project Name</label>
+                    <input type="text" class="form-control projectname">
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project description</label>
+                    <textarea class="form-control tx" rows="3" placeholder="Enter Here"></textarea>
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project Link</label>
+                    <input type="text" class="form-control in" placeholder="Enter Here">
+
+                </div>
+                <br>
+                <div class="form-group">
+                    <div>
+                        <h4 class="text-center">Project-2</h4>
+                    </div>
+                    <label for="exampleFormControlTextarea1">Project Name</label>
+                    <input type="text" class="form-control projectname1">
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project description</label>
+                    <textarea class="form-control tx1" rows="3" placeholder="Enter Here"></textarea>
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project Link</label>
+                    <input type="text" class="form-control in1" placeholder="Enter Here">
+
+                </div>
+                <br>
+                <div class="form-group">
+                    <div>
+                        <h4 class="text-center">Project-3</h4>
+                    </div>
+                    <label for="exampleFormControlTextarea1">Project Name</label>
+                    <input type="text" class="form-control projectname2">
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project description</label>
+                    <textarea class="form-control tx2" rows="3" placeholder="Enter Here"></textarea>
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project Link</label>
+                    <input type="text" class="form-control in2" placeholder="Enter Here">
+
+                </div>
+                <br>
+                <div class="form-group">
+                    <div>
+                        <h4 class="text-center">Project-4</h4>
+                    </div>
+                    <label for="exampleFormControlTextarea1">Project Name</label>
+                    <input type="text" class="form-control projectname3">
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project description</label>
+                    <textarea class="form-control tx3" rows="3" placeholder="Enter Here"></textarea>
+                    <br>
+                    <label for="exampleFormControlTextarea1">Project Link</label>
+                    <input type="text" class="form-control in3" placeholder="Enter Here">
+                </div>
+                <br>
+                <div class="form-group">
+                    <h2>Experience Certificate</h2>
+                    <br>
+                    <label for="exampleFormControlTextarea1">Certificate Image</label>
+                    <input class="form-control" id="certificateImage" type="file">
+                    <br>
+                    <label for="exampleFormControlTextarea1">Certificate Description</label>
+                    <textarea class="form-control" id="certificateDescription" rows="3"
+                        placeholder="Enter Here"></textarea>
+                </div>
             </div>
         </div>
+
         <div class="genrate">
             <button id="make">Generate CV</button>
         </div>
@@ -95,20 +200,42 @@
 
                 <p class="pata"></p>
                 <hr id="hrd">
-                <a href="" class="face"><i class="fa-brands fa-facebook"></i></a>
-                <br>
-                <a href="" class="ins"><i class="fa-brands fa-instagram"></i></a>
-                <br>
-                <a href="" class="lin"><i class="fa-brands fa-linkedin"></i></a>
+                <span id="link-span">
+                    <a href="" class="face"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="" class="ins"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="" class="lin"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="" class="twit"><i class="fa-brands fa-x-twitter"></i></a>
+
+                    <a href="" class="you"><i class="fa-brands fa-youtube"></i></a>
+
+                    <a href="" class="git"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="" class="port"><i class="fa-solid fa-briefcase"></i></a>
+
+                </span>
             </div>
         </div>
-        <div class="right">
+
+
+        <div class="right" id="right-img">
             <h2 class="name1"></h2>
             <br>
-            <div id="tive">
-                <h2>Objective</h2>
+            <div id="none1">
+                <div id="tive">
+                    <h2>Objective</h2>
+                </div>
+                <div class="objec">
+                </div>
             </div>
-            <div class="objec">
+            <div id="aboutnone">
+                <!-- <div id="shrikant"> -->
+                <div class="sada" id="shrikant">
+                    <h2>About Me</h2>
+                </div>
+
             </div>
             <br>
             <div id="ence">
@@ -127,7 +254,54 @@
 
                 </ul>
             </div>
+            <div class="div">
+
+            </div>
+            <div id="none">
+                <div class="Categore-re" id="skill">
+                    <h2>Skills</h2>
+                </div>
+                <div class="cat-details">
+
+                </div>
+            </div>
+            <div id="noned">
+                <div class="Categore" id="project">
+                    <h2>Projects</h2>
+                </div>
+                <div id="promax">
+
+
+                </div>
+            </div>
+
+            <div id="certificate">
+
+            </div>
             <br>
+            <br>
+            <div class="change-color mt-4">
+                <h6>Change Template Colour</h6>
+                <button id="cl5"></button> <button id="green"></button> <button id="purple"></button> <button
+                    id="cl3"></button> <button id="cl4"></button> <button id="cl6"></button> <button id="cl7"></button>
+                <button id="cl8"></button>
+                <button id="cl9"></button> <button id="cl10"></button> <button id="cl11"></button> <button
+                    id="cl12"></button>
+            </div>
+            <br>
+            <div class="change-resume-img">
+                <h6>Add Template Image</h6>
+                <input type="file" id="chngeImg" hidden>
+                <button id="chose">Chose Image</button>
+            </div>
+            <br>
+            <div id="template-styles">
+                <h6>Template</h6>
+                <br>
+                <img src="8a8518e6-e325-4ced-9acb-6d3a6783a44a.jpeg" id="hori"> <button id="homepage"><a
+                        href="index.html" target="_blank">Home
+                        Page</a></button>
+            </div>
             <br>
             <div class="container pir" id="close">
                 <button id="print-cv">Print Cv</button>
