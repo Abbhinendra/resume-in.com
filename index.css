@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    padding-bottom: 16px;
 }
 
 .color-body {
@@ -66,9 +67,9 @@ body {
 }
 
 #cv .left img {
-    width: 50%;
     border-radius: 50%;
-    height: 22%;
+    width: 180px;
+    height: 180px;
 }
 
 .add button {
@@ -110,6 +111,7 @@ body {
 
 #cv .left {
     background-color: aqua;
+    margin-top: 1.62%;
 
 }
 
@@ -190,20 +192,138 @@ body {
     width: 100%;
 }
 
+.Categore-re{
+    background-color:aqua;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white ;
+}
+
+#certi-d{
+    background-color:#172D13;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white ;
+}
+.certi-desc{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+}
+.cat-details{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+}
+.Categore{
+    background-color:aqua;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white ;
+}
+.sada{
+    background-color:aqua;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white ;
+}
+#shrikant{
+    background-color:aqua;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white ;
+}
+.certi-title{
+    background-color:#172D13;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color: white ;
+}
+.Cate{
+    background:#172D13;
+    border-radius: 6px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+    color:white;
+}
+.aboutme{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+}
+.cat{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 6px !important;
+   
+} 
+.cat .link{
+    text-align: right;
+    margin-left: 18%;
+  
+}
+
+#aboutnone{
+    margin-top: 2%;
+}
+#noned{
+    margin-top: 2%;
+}
+.change-color  button{
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 26px 26px;
+    color: white;
+    background-color: black;
+    margin: 6px 6px;
+    width: 10%;
+    
+}
+#green{
+    background-color:#172D13;
+}
+#purple{
+    background-color: #490B3D;
+}
+#cl3{
+    background-color: #161F6D;
+}
+#cl4{
+    background-color: #1D2228;
+}
+
+#cl5{
+    background-color: aqua;
+}
+.change-resume-img button{
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background-color: darkorchid;
+}
+
 @media print {
 
     #print-cv {
-        background-color: aqua !important;
-        color: white;
-        font-size: 17px;
-        font-weight: 700;
-        border: none;
-        outline: none;
-        border-radius: 6px;
-        cursor: pointer;
-        padding: 6px;
-
+      display: none;
+    } 
+    .change-color{
+        display: none;
     }
+    .change-resume-img{
+        display: none;
+    }
+    #template-styles{
+        display: none;
+    }
+    /*
 
     #cv .left {
         background-color: aqua !important;
@@ -241,7 +361,6 @@ body {
         color: white !important;
 
     }
-
     .objec {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
         padding: 6px !important;
@@ -295,11 +414,11 @@ body {
     #hrd {
         background-color: rgb(8, 134, 134) !important;
         width: 100% !important;
-    }
+    } */
 
     body {
         -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
+         print-color-adjust: exact !important;
     }
 }
 
@@ -398,3 +517,187 @@ body {
     }
 }
 
+@media screen and (max-width: 460px) {
+    #cv .left .left-main p {
+        font-size: 9px;
+    }
+
+    #cv .left .left-main a {
+        font-size: 9px;
+    }
+
+    #cv .right .name1 {
+        font-size: 17px;
+    }
+
+    #cv .right #tive h2 {
+        font-size: 17px;
+    }
+
+    #cv .right .objec {
+        font-size: 9px;
+    }
+
+    #cv .right #ence h2 {
+        font-size: 17px;
+    }
+
+    #cv .right #box li {
+        font-size: 9px;
+    }
+
+    #cv .right #tion h2 {
+        font-size: 17px;
+    }
+
+    #cv .right #boxqa li {
+        font-size: 9px;
+    }
+
+    #cv .left {
+        width: 36vw;
+    }
+
+    #cv .right {
+        width: 60vw;
+    }
+
+    #cv {
+        display: none;
+        justify-content: space-between;
+    }
+
+    #cv .right ul li {
+        list-style: none;
+    }
+}
+
+#link-span a {
+    margin: 0 6px;
+}
+
+.in-cat input,
+textarea {
+    margin: 6px 0;
+}
+.req{
+    color: rgb(238, 9, 55);
+    margin-left: 6px;
+}
+
+#right-img{
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 6px;
+}
+.left{
+    font-size: 18px;
+    font-weight: 600;
+}
+.left input,textarea{
+    font-size: 18px;
+    font-weight: 600;
+}
+.left ::placeholder{
+    font-size: 18px;
+    font-weight: 600;
+}
+.right{
+    font-size: 18px;
+    font-weight: 600;
+}
+.right input,textarea{
+    font-size: 18px;
+    font-weight: 600;
+}
+.right ::placeholder{
+    font-size: 18px;
+    font-weight: 600;
+}
+.change-resume-img h6{
+    font-size: 1.08rem;
+    font-weight: 800;
+}
+.change-color h6{
+    font-size: 1.08rem;
+    font-weight: 800;
+}
+#template-styles button{
+    cursor: pointer;
+    padding: 6px 6px 6px 6px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: darkorchid;
+    margin: 6px 6px;
+}
+
+#homepage a{
+    text-decoration: none;
+    color: white;
+}
+
+#make{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#certificate .box{
+    width: 526px;
+    height: 266px;
+    margin:2% auto;
+    border-radius: 6px;
+    background-color: wheat;
+    padding: 8px 8px 8px 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+#certificate .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+#certi{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#hori{
+    width: 280px;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 8px;
+    filter: brightness(100%);
+}
+#template-styles h6{
+font-size: 1.8rem;
+font-weight: 600;
+}
+#cl6{
+    background-color: #4A5FC1;
+}
+#cl7{
+    background-color: #00458B;
+}
+#cl8{
+  background-color: #E6E2DD;
+}
+#cl9{
+    background-color:#051622;
+}
+#cl10{
+    background-color: #E40C2B;
+}
+#cl11{
+    background-color: #9E15BF;
+}
+#cl12{
+    background-color: #5626C4;
+}
